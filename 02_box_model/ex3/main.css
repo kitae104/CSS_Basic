@@ -1,0 +1,17 @@
+.div-box {
+    border: 2px solid red;
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+    display: inline-block;
+}
+
+#first  {   
+    height: 300px;
+    width: 50%;
+    display: none;
+}
+
+div:last-of-type:hover {
+    border: 5px solid blue;
+    background-color: yellow;
+}

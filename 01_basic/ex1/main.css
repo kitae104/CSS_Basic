@@ -1,0 +1,22 @@
+body {
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+#product-overview {
+    background : #ff1b68;   /* 배경색 */
+    text-align: left;       /* 텍스트 가운데 정렬 */
+}
+
+.section-title {
+    color: #2ddf5c;          /* 글자색 */       
+}
+
+#product-overview h1 {
+    color: white;          /* 글자색 */
+    font-family: 'Nanum Pen Script', sans-serif;  /* 글꼴 */
+    font-size: 2em;           /* 글자 크기 */
+}
+
+h1 {
+    font-family: sans-serif;
+}
