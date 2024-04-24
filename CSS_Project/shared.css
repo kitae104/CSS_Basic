@@ -38,6 +38,14 @@ body {
     text-decoration: none;      /* 밑줄 없애기 */
     font-weight: bold;
     font-size: 22px;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+}
+
+.main-header__brand img {    
+    height: 100%;   
+    /*margin-top: -5px; */
 }
 
 .main-nav {
