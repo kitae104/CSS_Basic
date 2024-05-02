@@ -22,10 +22,8 @@
 }
 
 .testimonial__image {
-    width: 100%;
-    /* 자식 요소의 너비를 100%로 설정 */
-    vertical-align: top;
-    /* 수직 정렬을 상단으로 설정 */
+    width: 100%;     /* 자식 요소의 너비를 100%로 설정 */
+    vertical-align: top;    /* 수직 정렬을 상단으로 설정 */
 }
 
 

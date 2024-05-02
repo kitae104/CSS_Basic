@@ -2,7 +2,7 @@
 /* 전체적인 부분                       */
 /***************************************/
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;   /* 박스 모델의 크기를 계산할 때, 패딩과 테두리를 포함하여 계산 */
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;  /* 글꼴 설정 */
     margin: 0;
 }
 
@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
     display: none;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 100;   /* z-index를 100으로 사용하여 다른 요소들보다 앞으로 보냄 */
     width: 100vw;    /* 너비 - 전체 뷰포트에 대한 비율 */
     height: 100vh;
     background: rgba(0, 0, 0, 0.5);
@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
     width: 3rem;
     background: transparent;    /* 배경색 */
     border: none;
-    cursor: pointer;
+    cursor: pointer;    /* 커서 모양 */
     padding-top: 0;
     padding-bottom: 0;
     vertical-align: middle;
@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
 .main-nav__items {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none;   /* 리스트 표시 없애기 */
 }
 
 .main-nav__item {
@@ -124,7 +124,7 @@ body::-webkit-scrollbar {
     color: white;
     background: #ff1b68;
     padding: 0.5rem 1rem;
-    border-radius: 8px;
+    border-radius: 8px;     /* 테두리 모서리 둥글게 */
 }
 
 .main-nav__item--cta a:hover,
@@ -223,6 +223,13 @@ body::-webkit-scrollbar {
     outline: none;    /* 포커스 테두리 없애기 */
 }
 
+.button[disabled]{
+    cursor: not-allowed;
+    border: #a1a1a1;
+    background: #ccc;
+    color: #a1a1a1;
+}
+
 .open {
-    display: block !important;
+    display: block !important;    
 }

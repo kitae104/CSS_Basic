@@ -55,148 +55,98 @@
 
 /* 요금제 */
 .plan {
-    background: #d5ffdc;
-    /* 배경색 */
-    text-align: center;
-    /* 텍스트 가운데 정렬 */
-    padding: 1rem;
-    /* 안쪽 여백 */
-    margin: 0.5rem;
-    /* 바깥 여백 */
-    display: inline-block;
-    /* 인라인 블록 요소 */
-    width: 30%;
-    /* 너비 */
-    border-radius: 8px;
-    /* 테두리 모서리 둥글게 */
-    vertical-align: middle;
-    /* 수직 정렬 */
+    background: #d5ffdc;     /* 배경색 */
+    text-align: center;    /* 텍스트 가운데 정렬 */
+    padding: 1rem;    /* 안쪽 여백 */
+    margin: 0.5rem;    /* 바깥 여백 */
+    display: inline-block;    /* 인라인 블록 요소 */
+    width: 30%;    /* 너비 */
+    border-radius: 8px;    /* 테두리 모서리 둥글게 */
+    vertical-align: middle;    /* 수직 정렬 */
 }
 
 .plan--highlighted {
-    background: #19b84c;
-    /* 배경색 */
-    color: white;
-    /* 글자색 */
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    /* 그림자 */
+    background: #19b84c;    /* 배경색 */
+    color: white;    /* 글자색 */
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);    /* 그림자 */
 }
 
 .plan__annotation {
-    background: white;
-    /* 배경색 */
-    color: #0e4f1f;
-    /* 글자색 */
-    padding: 0.5rem;
-    /* 안쪽 여백 */
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    /* 그림자 */
-    border-radius: 4px 4px 4px 4px;
-    /* 테두리 모서리 둥글게 */
+    background: white;    /* 배경색 */
+    color: #0e4f1f;    /* 글자색 */
+    padding: 0.5rem;    /* 안쪽 여백 */
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);    /* 그림자 */
+    border-radius: 4px 4px 4px 4px;    /* 테두리 모서리 둥글게 */
 }
 
 .plan__title {
-    color: #0e4f1f;
-    /* 글자색 */
+    color: #0e4f1f;    /* 글자색 */
 }
 
 .plan__price {
-    color: #858585;
-    /* 글자색 */
+    color: #858585;    /* 글자색 */
 
 }
 
 .plan--highlighted .plan__title {
-    color: white;
-    /* 글자색 */
+    color: white;    /* 글자색 */
 }
 
 .plan--highlighted .plan__price {
-    color: #0e4f1f;
-    /* 글자색 */
+    color: #0e4f1f;    /* 글자색 */
 }
 
 .plan__features {
-    list-style: none;
-    /* 리스트 스타일 없애기 */
-    padding: 0;
-    /* 안쪽 여백 */
-    margin: 0;
-    /* 바깥 여백 */
+    list-style: none;    /* 리스트 스타일 없애기 */
+    padding: 0;    /* 안쪽 여백 */
+    margin: 0;    /* 바깥 여백 */
 }
 
 .plan__feature {
-    padding: 0.5rem 0;
-    /* 안쪽 여백 */
+    padding: 0.5rem 0;    /* 안쪽 여백 */
 }
 
 
 #key-feature {
-    background: #ff1b68;
-    /* 배경색 */
-    margin-top: 5rem;
-    /* 위 여백 */
-    padding: 1rem;
-    /* 안쪽 여백 */
+    background: #ff1b68;    /* 배경색 */
+    margin-top: 5rem;    /* 위 여백 */
+    padding: 1rem;    /* 안쪽 여백 */
     /* stroke: black; */
 }
 
 #key-feature .section-title {
-    color: white;
-    /* 글자색 */
-    margin: 2rem;
-    /* 바깥 여백 */
+    color: white;    /* 글자색 */
+    margin: 2rem;    /* 바깥 여백 */
 }
 
 .key-feature__list {
-    list-style: none;
-    /* 리스트 스타일 없애기 */
-    padding: 0;
-    /* 안쪽 여백 */
-    margin: 0;
-    /* 바깥 여백 */
-    text-align: center;
-    /* 텍스트 가운데 정렬 */
+    list-style: none;    /* 리스트 스타일 없애기 */
+    padding: 0;    /* 안쪽 여백 */
+    margin: 0;    /* 바깥 여백 */
+    text-align: center;    /* 텍스트 가운데 정렬 */
 }
 
 .key-feature {
-    display: inline-block;
-    /* 인라인 블록 요소 */
-    width: 30%;
-    /* 너비 */
-    vertical-align: top;
-    /* 수직 정렬 */
+    display: inline-block;    /* 인라인 블록 요소 */
+    width: 30%;    /* 너비 */
+    vertical-align: top;    /* 수직 정렬 */
 }
 
 .key-feature__image {
-    background: #ffcede;
-    /* 배경색 */
-    width: 128px;
-    /* 너비 */
-    height: 128px;
-    /* 높이 */
-    border: 2px solid #424242;
-    /* 테두리 */
-    border-radius: 50%;
-    /* 테두리 모서리 둥글게 */
-    margin: auto;
-    /* 가운데 정렬 */
-    padding: 1.5rem;
-    /* 안쪽 여백 */
-    ;
-
-
+    background: #ffcede;    /* 배경색 */
+    width: 128px;    /* 너비 */
+    height: 128px;    /* 높이 */
+    border: 2px solid #424242;    /* 테두리 */
+    border-radius: 50%;    /* 테두리 모서리 둥글게 */
+    margin: auto;    /* 가운데 정렬 */
+    padding: 1.5rem;    /* 안쪽 여백 */   
 }
 
 .key-feature__description {
-    text-align: center;
-    /* 텍스트 가운데 정렬 */
-    font-weight: bold;
-    /* 글자 굵게 */
-    color: white;
-    /* 글자색 */
-    font-size: 1.2rem;
-    /* 글자 크기 */
+    text-align: center;    /* 텍스트 가운데 정렬 */
+    font-weight: bold;    /* 글자 굵게 */
+    color: white;    /* 글자색 */
+    font-size: 1.2rem;    /* 글자 크기 */
 }
 
 
